@@ -30,7 +30,7 @@ public class LogSimulator extends Thread
 {
     private static String TOPIC_NAME = "weblogs";
     private static String brokerList = null;
-    private static Integer numberOfUsers = 10;
+    private static Integer numberOfUsers = 1;
     private static Integer maxThinkTimeMillis = 10000;
     private static Integer minThinkTimeMillis = 5000;
     private static Integer timeToRunSecs = 120;  //120
